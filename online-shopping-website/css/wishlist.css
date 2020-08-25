@@ -1,0 +1,65 @@
+.st5{
+    margin-top: 10px;
+
+}
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+    .lside {
+        margin-left: 1200px;
+        display: flex;
+      }
+
+    .lside  ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+    
+   .lside ul li{
+       display: inline-block; 
+      
+    }
+    
+   .lside ul li a{
+        text-decoration: none;
+        color:black;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease 0s;
+        position: relative;
+    }
+    
+   .lside ul li a:hover{
+        background-color:black;
+        color: #fff;
+    }
+    
+   .lside ul li.active a{
+        background-color: black;
+        color: white;
+    }
+
+     .st{
+        margin-top: 6px;
+        font-size: 16px;
+    }
+
+    .slink button{
+        border: none;
+         background-color: inherit;
+         cursor: pointer;
+         display: inline-block;
+       }
+   
+       .shirt button{
+           border: none;
+           background-color: inherit;
+           font-size: 16px;
+           cursor: pointer;
+           display: inline-block;
+        }

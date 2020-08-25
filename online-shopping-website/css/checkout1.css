@@ -1,0 +1,231 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+ .tab2{
+    
+    width: 1000px;
+}
+
+.name{
+    display: block;
+   margin-top: 25px;
+   width: 180px;
+   margin-left: 30px; 
+   height: 25px;
+  
+}
+
+.name2{
+    display: inline-flex;
+   margin-top: 25px;
+   width: 180px;
+   margin-left:30px;  
+   height: 25px; 
+}
+
+
+.pin{
+   margin-top: 20px;
+   width: 180px;
+   display: inline;
+   margin-left: 80px;
+   height: 25px;
+}
+.pin2{
+   margin-left: 120px;
+   width: 180px;
+   height: 25px;
+}
+
+.add{
+   width: 600px;
+   height: 75px;
+   margin-left: 30px;
+   margin-top: 20px;
+   display: flex;
+}
+
+.city{
+   margin-top: 25px;
+   width: 180px;
+   margin-left: 30px;  
+   height: 25px; 
+}
+
+.custom{
+   margin-left: 110px;
+   display: inline;
+  
+}
+
+.adt{
+   margin-top: 25px;
+   margin-left: 30px;
+}
+.type{
+   display: inline;
+   margin-top: 25px;
+   margin-left: 30px;
+}
+.ad .btn2{
+   display: flex;
+   margin-left: 30px;
+   margin-top: 25px;
+}
+
+.container3 {
+   display: inline;
+   position: relative;
+   padding-left: 35px;
+  
+   cursor: pointer;
+   font-size: 15px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   margin-top: 10px;
+   margin-left: 30px;
+ }
+ 
+ /* Hide the browser's default radio button */
+ .container3 input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+ }
+ 
+ /* Create a custom radio button */
+ .checkmark {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 20px;
+   width: 20px;
+   background-color: #eee;
+   border-radius: 50%;
+   
+ }
+ 
+ /* On mouse-over, add a grey background color */
+ .container3:hover input ~ .checkmark {
+   background-color: #ccc;
+ }
+ 
+ /* When the radio button is checked, add a blue background */
+ .container3 input:checked ~ .checkmark {
+   background-color: #2196F3;
+ }
+ 
+ /* Create the indicator (the dot/circle - hidden when not checked) */
+ .checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ /* Show the indicator (dot/circle) when checked */
+ .container3 input:checked ~ .checkmark:after {
+   display: block;
+   width: 2px;
+   height: 0px;
+ }
+ 
+ /* Style the indicator (dot/circle) */
+ .container3 .checkmark:after {
+      top: 9px;
+     left: 9px;
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     background: white;
+ } 
+
+ .btn3{
+     margin-top: 25px;
+     margin-left: 500px;
+     width: 75px;
+     height: 30px;
+     
+ }
+
+ .tab3{
+    margin-left: px;
+    margin-top: 50px;
+  }
+  
+  .container2 {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* Hide the browser's default radio button */
+    .container2 input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    
+    /* Create a custom radio button */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+      border-radius: 50%;
+    }
+    
+    /* On mouse-over, add a grey background color */
+    .container2:hover input ~ .checkmark {
+      background-color: #ccc;
+    }
+    
+    /* When the radio button is checked, add a blue background */
+    .container2 input:checked ~ .checkmark {
+      background-color: #2196F3;
+    }
+    
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    
+    /* Show the indicator (dot/circle) when checked */
+    .container2 input:checked ~ .checkmark:after {
+      display: block;
+    }
+    
+    /* Style the indicator (dot/circle) */
+    .container2 .checkmark:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+    }
+
+    .submit{
+        margin-left: 800px;
+        margin-top: 25px;
+        background-color: green;
+        color: white;
+        width: 100px;
+    }
+    
+    .email{
+      margin-left:30px ;
+      width: 300px;
+    }

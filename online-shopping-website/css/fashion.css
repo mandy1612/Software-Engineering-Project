@@ -1,0 +1,151 @@
+
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.mid{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 400px;
+    margin-left: 50px;
+    background-color: bisque;
+    height: 475;
+    margin-top: 450px;
+  }
+
+
+  .card2 {
+    float: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 400px;
+    background-color: cadetblue;
+    height: 475;
+    margin-top: 450px;
+  }
+  
+
+  .card3 {
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 400px;
+    background-color: bisque;
+    height: 475;
+    margin-top: 450px;
+    margin-right: 50px;
+  }
+  
+
+  .mid2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-0%,-40%);
+}
+
+.card4 {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 400px;
+    margin-left: 50px;
+    background-color: bisque;
+    height: 475;
+    margin-top: 450px;
+  }
+
+
+  .card5 {
+    float: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 400px;
+    background-color: cadetblue;
+    height: 475;
+    margin-top: 450px;
+  }
+  
+
+  .card6 {
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 400px;
+    background-color: bisque;
+    height: 475;
+    margin-top: 450px;
+    margin-right: 50px;
+  }
+  
+
+
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+    
+  }
+
+  .container{
+      float: center;
+      margin-left: 160px;
+  }
+
+  .text{
+      color:black;
+      margin-left: 160px;
+  }
+
+  .heart{
+    float: left;
+    margin-top: 10px;
+   
+}
+
+.eye{
+    float: right;
+    margin-top: 10px;
+   margin-right: 180px;
+
+}
+
+  ul{
+    justify-content: space-between;
+    
+}
+
+ul a{
+    text-decoration: none;
+    color:black;
+    border: 1px solid transparent;
+    transition: 0.6s ease 0s;
+    
+}
+
+ul a:hover{
+    background-color: #fff;
+    color:red;
+}
+
+ul.active a{
+    background-color: #fff;
+    color:red;
+}
